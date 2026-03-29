@@ -136,10 +136,41 @@ main {
     .hero-circle {
         background-color: rgba(34, 45, 65);
         width: 650px;
-        height: 325px; /* half of 650 */
+        height: 325px;
         border-top-left-radius: 325px;
         border-top-right-radius: 325px;
-        // margin-top: 6rem;
+        position: relative;
+        overflow: visible;
+        border-bottom: none;
 
+        .line-circle {
+            border: 1.5px solid rgba(128, 128, 128, 0.396);
+            width: 750px;
+            height: 375px;
+            border-top-left-radius: 375px;
+            border-top-right-radius: 375px;
+            position: absolute;
+            z-index: -1;
+            bottom: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+            .dashed-circle {
+                border:2.5px dashed rgba(128, 128, 128, 0.396);
+                width: 850px;
+                height: 425px;
+                border-top-left-radius: 425px;
+                border-top-right-radius: 425px;
+                position: absolute;
+                z-index:-2;
+                bottom: 0%;
+                left: 50%;
+                transform: translateX(-50%);
+                border-bottom: none;
+                
+
+            }
+        
     }
 }
