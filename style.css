@@ -76,7 +76,6 @@ main {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 main .main-heading-line {
   color: rgba(255, 255, 255, 0.858);
@@ -166,4 +165,79 @@ main .hero-circle .gym-boy {
   position: absolute;
   z-index: 3;
   transform: rotate(5deg);
+}
+main .hero-circle .calorie-box-left {
+  margin-left: -70rem;
+}
+main .hero-circle .calorie-box-left .top-box-left {
+  background-color: rgb(249, 226, 218);
+  width: 230px;
+  height: 120px;
+  padding: 1.2rem;
+  border-radius: 15px;
+  margin-top: -17.5rem;
+  margin-left: -1rem;
+}
+main .hero-circle .calorie-box-left .top-box-left .num-kg {
+  margin-top: -0.5rem;
+  color: black;
+  text-align: left;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 1px;
+}
+main .hero-circle .calorie-box-left .top-box-left .calorie-txt {
+  display: flex;
+  gap: 1rem;
+}
+main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .main-txt {
+  font-weight: 500;
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+}
+main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .offer-txt {
+  width: 65px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+}
+main .hero-circle .calorie-box-left .top-box-left .calorie-txt .calorie-dumb-img .dumble-img {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: -2rem;
+}
+main .hero-circle .calorie-box-left .bottom-box-left {
+  text-align: left;
+  height: 145px;
+  width: 160px;
+  background-color: rgba(230, 230, 230, 0.121);
+  margin-top: 8rem;
+  padding: 1.1rem 1.1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 12rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 5rem;
+}
+main .hero-circle .calorie-box-left .bottom-box-left p {
+  font-family: "Outfit", sans-serif;
+  color: rgba(255, 255, 255, 0.904);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+main .hero-circle .calorie-box-left .bottom-box-left .star {
+  color: white;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
