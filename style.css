@@ -74,6 +74,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 main .main-heading-line {
   color: rgba(255, 255, 255, 0.858);
@@ -89,8 +91,7 @@ main p {
 main .main-btn {
   display: flex;
   gap: 1rem;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 7rem;
 }
 main .main-btn .trail-btn {
   background-color: rgb(245, 169, 133);
@@ -115,4 +116,11 @@ main .main-btn .demo-btn {
   font-size: 1.2rem;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
+}
+main .hero-circle {
+  background-color: rgb(34, 45, 65);
+  width: 650px;
+  height: 325px; /* half of 650 */
+  border-top-left-radius: 325px;
+  border-top-right-radius: 325px;
 }/*# sourceMappingURL=style.css.map */

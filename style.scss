@@ -85,6 +85,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    justify-content: center;
+    align-items: center;
 
     .main-heading-line {
         color: rgba(255, 255, 255, 0.858);
@@ -102,8 +104,7 @@ main {
     .main-btn {
         display: flex;
         gap: 1rem;
-        align-items: center;
-        justify-content: center;
+        margin-bottom: 7rem;
 
         .trail-btn {
             background-color: rgba(245, 169, 133);
@@ -114,21 +115,31 @@ main {
             display: inline-block;
             line-height: 1;
             font-size: 1.2rem;
-           font-family: 'Outfit', sans-serif;
+            font-family: 'Outfit', sans-serif;
         }
 
         .demo-btn {
             color: white;
             border-color: rgb(255, 255, 255);
-            border-width:0.1rem;
+            border-width: 0.1rem;
             padding: 12px 20px;
             border-radius: 50px;
-            background-color: rgb(54, 57, 74) ;
+            background-color: rgb(54, 57, 74);
             display: inline-block;
             line-height: 1;
             font-size: 1.2rem;
             font-weight: 300;
             font-family: 'Outfit', sans-serif;
         }
+    }
+
+    .hero-circle {
+        background-color: rgba(34, 45, 65);
+        width: 650px;
+        height: 325px; /* half of 650 */
+        border-top-left-radius: 325px;
+        border-top-right-radius: 325px;
+        // margin-top: 6rem;
+
     }
 }
