@@ -76,6 +76,7 @@ main {
   gap: 1rem;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 main .main-heading-line {
   color: rgba(255, 255, 255, 0.858);
@@ -125,7 +126,10 @@ main .hero-circle {
   border-top-right-radius: 325px;
   position: relative;
   overflow: visible;
-  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 main .hero-circle .line-circle {
   border: 1.5px solid rgba(128, 128, 128, 0.396);
@@ -138,6 +142,7 @@ main .hero-circle .line-circle {
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
+  border-bottom: none;
 }
 main .hero-circle .dashed-circle {
   border: 2.5px dashed rgba(128, 128, 128, 0.396);
@@ -151,4 +156,14 @@ main .hero-circle .dashed-circle {
   left: 50%;
   transform: translateX(-50%);
   border-bottom: none;
+}
+main .hero-circle .gym-boy {
+  margin-top: -5rem;
+  height: 29rem;
+  width: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(5deg);
 }/*# sourceMappingURL=style.css.map */
