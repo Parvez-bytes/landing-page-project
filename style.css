@@ -240,4 +240,51 @@ main .hero-circle .calorie-box-left .bottom-box-left p {
 main .hero-circle .calorie-box-left .bottom-box-left .star {
   color: white;
   font-size: 2rem;
+}
+main .hero-circle .offer-box-right .top-box-right {
+  display: flex;
+  gap: 1rem;
+  padding: 0.8rem;
+  margin-left: 70rem;
+  margin-top: -15rem;
+  text-align: left;
+  height: 110px;
+  width: 270px;
+  background-color: rgba(230, 230, 230, 0.121);
+  border-radius: 30px;
+  text-align: left;
+}
+main .hero-circle .offer-box-right .top-box-right .chatai {
+  color: black;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .hero-circle .offer-box-right .top-box-right .ai-txt .heading {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+main .hero-circle .offer-box-right .top-box-right .ai-txt .tagline {
+  color: rgba(255, 255, 255, 0.667);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 5px;
+  word-spacing: 2px;
+}
+main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag .ai-price {
+  font-weight: 300;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
