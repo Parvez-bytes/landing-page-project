@@ -76,6 +76,7 @@ main {
   gap: 1rem;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 main .main-heading-line {
   color: rgba(255, 255, 255, 0.858);
@@ -241,14 +242,16 @@ main .hero-circle .calorie-box-left .bottom-box-left .star {
   color: white;
   font-size: 2rem;
 }
+main .hero-circle .offer-box-right {
+  margin-left: 75rem;
+}
 main .hero-circle .offer-box-right .top-box-right {
   display: flex;
-  gap: 1rem;
+  gap: 1.1rem;
   padding: 0.8rem;
-  margin-left: 70rem;
   margin-top: -15rem;
   text-align: left;
-  height: 110px;
+  height: 120px;
   width: 270px;
   background-color: rgba(230, 230, 230, 0.121);
   border-radius: 30px;
@@ -290,5 +293,47 @@ main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag {
 main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag .ai-price {
   font-weight: 300;
   font-size: 0.8rem;
-  font-family: "Antic", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+main .hero-circle .offer-box-right .bottom-box-right {
+  display: flex;
+  gap: 1rem;
+  padding: 0.8rem;
+  margin-top: 13rem;
+  margin-left: -8rem;
+  height: 110px;
+  width: 270px;
+  background-color: rgba(230, 230, 230, 0.121);
+  border-radius: 20px;
+  text-align: left;
+  background-color: rgb(203, 146, 119);
+}
+main .hero-circle .offer-box-right .bottom-box-right .barchart {
+  font-size: 5rem;
+  color: brown;
+}
+main .hero-circle .offer-box-right .bottom-box-right .power-feature p {
+  color: black;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt {
+  margin-top: -0.5rem;
+}
+main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .sign {
+  font-weight: bolder;
+  font-size: 1.8rem;
+  font-family: "Outfit", sans-serif;
+}
+main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .percentage {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Outfit", sans-serif;
+}
+main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .arrow {
+  color: black;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
