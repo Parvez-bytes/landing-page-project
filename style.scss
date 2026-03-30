@@ -134,6 +134,7 @@ main {
     }
 
     .hero-circle {
+        position: relative;
         background-color: rgba(34, 45, 65);
         width: 650px;
         height: 325px;
@@ -185,18 +186,18 @@ main {
         }
 
         .calorie-box-left {
-            margin-left: -70rem;
+            position: absolute;
+            left:-60%;
+            top: -30%;
 
             .top-box-left {
-                // background-color: rgb(249, 226, 218);
                 background-color: rgb(207, 185, 175);
 
                 width: 230px;
                 height: 120px;
                 padding: 1.2rem;
                 border-radius: 15px;
-                margin-top: -17.5rem;
-                margin-left: -1rem;
+                position: relative;
 
                 .num-kg {
                     margin-top: -0.5rem;
@@ -254,14 +255,14 @@ main {
                 height: 145px;
                 width: 160px;
                 background-color: rgba(230, 230, 230, 0.121);
-                margin-top: 8rem;
                 padding: 1.1rem 1.1rem;
                 border-radius: 20px;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                margin-left: 12rem;
                 position: absolute;
+                top:120%;
+                left: 80%;
                 z-index: 1;
                 margin-top: 5rem;
 
@@ -282,13 +283,17 @@ main {
         }
 
         .offer-box-right {
-            margin-left: 75rem;
+            position: relative;
+            left:65%;
+            top:-80%;
 
             .top-box-right {
+                position: relative;
+                top:50%;
+                left:50%;
                 display: flex;
                 gap: 1.1rem;
                 padding: 0.8rem;
-                margin-top: -15rem;
                 text-align: left;
                 height: 120px;
                 width: 270px;
@@ -350,8 +355,9 @@ main {
                 display: flex;
                 gap: 1rem;
                 padding: 0.8rem;
-                margin-top: 13rem;
-                margin-left: -8rem;
+                position: absolute;
+                top:285%;
+                right:-10%;
                 height: 110px;
                 width: 270px;
                 background-color: rgba(230, 230, 230, 0.121);
