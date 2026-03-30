@@ -270,6 +270,7 @@ main .hero-circle .offer-box-right .top-box-right .ai-txt .heading {
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
+  font-family: "Josefin Sans", sans-serif;
 }
 main .hero-circle .offer-box-right .top-box-right .ai-txt .tagline {
   color: rgba(255, 255, 255, 0.667);
@@ -277,14 +278,17 @@ main .hero-circle .offer-box-right .top-box-right .ai-txt .tagline {
   font-size: 1rem;
   margin-top: 5px;
   word-spacing: 2px;
+  font-family: "Antic", sans-serif;
 }
 main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag {
   color: white;
   font-weight: 600;
   font-size: 1rem;
   margin-top: 0.2rem;
+  font-family: "Antic", sans-serif;
 }
 main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag .ai-price {
   font-weight: 300;
   font-size: 0.8rem;
+  font-family: "Antic", sans-serif;
 }/*# sourceMappingURL=style.css.map */

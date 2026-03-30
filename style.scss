@@ -312,6 +312,8 @@ main {
                         color: white;
                         font-weight: 600;
                         letter-spacing: 1px;
+                                font-family: 'Josefin Sans', sans-serif;
+
                     }
 
                     .tagline {
@@ -320,6 +322,8 @@ main {
                         font-size: 1rem;
                         margin-top: 5px;
                         word-spacing: 2px;
+                                font-family: 'Antic', sans-serif;
+
                     }
 
                     .pricetag {
@@ -327,10 +331,14 @@ main {
                         font-weight: 600;
                         font-size: 1rem;
                         margin-top: 0.2rem;
+                                font-family: 'Antic', sans-serif;
+
 
                         .ai-price {
                             font-weight: 300;
                             font-size: 0.8rem;
+                                    font-family: 'Antic', sans-serif;
+
                         }
                     }
                 }
