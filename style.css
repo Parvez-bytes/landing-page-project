@@ -57,8 +57,7 @@ nav .Info button {
   border-radius: 50px;
   display: inline-block;
   line-height: 1;
-  font-size: 1.1rem;
-  font-size: bold;
+  font-weight: 500;
   font-family: "Outfit", sans-serif;
 }
 
@@ -174,6 +173,20 @@ main .hero-circle .calorie-box-left {
   top: -30%;
 }
 main .hero-circle .calorie-box-left .top-box-left {
+  transition: all 0.3s ease;
+}
+main .hero-circle .calorie-box-left .top-box-left:hover {
+  background-color: rgba(230, 230, 230, 0.121);
+  transform: scale(1.05);
+}
+main .hero-circle .calorie-box-left .top-box-left:hover .num-kg {
+  color: white;
+}
+main .hero-circle .calorie-box-left .top-box-left:hover .offer-txt {
+  background-color: orange;
+  color: rgb(255, 255, 255);
+}
+main .hero-circle .calorie-box-left .top-box-left {
   background-color: rgb(207, 185, 175);
   width: 230px;
   height: 120px;
@@ -197,9 +210,12 @@ main .hero-circle .calorie-box-left .top-box-left .calorie-txt {
 }
 main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .main-txt {
   font-weight: 500;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 1rem;
   text-align: left;
+}
+main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .main-txt:hover .main-txt {
+  color: white;
 }
 main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .offer-txt {
   width: 65px;
