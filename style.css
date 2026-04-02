@@ -199,7 +199,8 @@ main .hero-circle .calorie-box-left .top-box-left:hover .calorie-dumb-img .dumbl
   transform: scale(1.1);
 }
 main .hero-circle .calorie-box-left .top-box-left {
-  background-color: rgb(207, 185, 175);
+  background-color: rgb(75, 81, 102);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   width: 230px;
   height: 120px;
   padding: 1.2rem;
@@ -248,7 +249,8 @@ main .hero-circle .calorie-box-left .bottom-box-left {
   text-align: left;
   height: 145px;
   width: 160px;
-  background-color: rgba(230, 230, 230, 0.121);
+  background-color: rgb(75, 81, 102);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   padding: 1.1rem 1.1rem;
   border-radius: 20px;
   display: flex;
@@ -285,7 +287,8 @@ main .hero-circle .offer-box-right .top-box-right {
   text-align: left;
   height: 120px;
   width: 270px;
-  background-color: rgba(230, 230, 230, 0.121);
+  background-color: rgb(75, 81, 102);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
   text-align: left;
 }
@@ -336,10 +339,10 @@ main .hero-circle .offer-box-right .bottom-box-right {
   right: -10%;
   height: 110px;
   width: 270px;
-  background-color: rgba(230, 230, 230, 0.121);
   border-radius: 20px;
   text-align: left;
-  background-color: rgb(203, 146, 119);
+  background-color: rgb(75, 81, 102);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 main .hero-circle .offer-box-right .bottom-box-right .barchart {
   font-size: 5rem;

@@ -193,7 +193,6 @@ main {
 
             .top-box-left {
                 transition: all 0.3s ease;
-
                 cursor: pointer;
 
                 .main-txt,
@@ -216,6 +215,7 @@ main {
                             .main-txt {
                                 color: white;
                             }
+
                             .offer-txt {
                                 background-color: orange;
                             }
@@ -229,7 +229,8 @@ main {
                     }
                 }
 
-                background-color: rgb(207, 185, 175);
+                background-color: rgb(75, 81, 102);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
                 width: 230px;
                 height: 120px;
                 padding: 1.2rem;
@@ -291,7 +292,9 @@ main {
                 text-align: left;
                 height: 145px;
                 width: 160px;
-                background-color: rgba(230, 230, 230, 0.121);
+                // background-color: rgba(230, 230, 230, 0.121);
+                background-color: rgb(75, 81, 102);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
                 padding: 1.1rem 1.1rem;
                 border-radius: 20px;
                 display: flex;
@@ -320,9 +323,6 @@ main {
 
         }
 
-
-
-
         .offer-box-right {
             position: relative;
             left: 65%;
@@ -338,7 +338,8 @@ main {
                 text-align: left;
                 height: 120px;
                 width: 270px;
-                background-color: rgba(230, 230, 230, 0.121);
+                background-color: rgb(75, 81, 102);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
                 border-radius: 30px;
                 text-align: left;
                 // overflow: hidden;
@@ -401,10 +402,10 @@ main {
                 right: -10%;
                 height: 110px;
                 width: 270px;
-                background-color: rgba(230, 230, 230, 0.121);
                 border-radius: 20px;
                 text-align: left;
-                background-color: rgb(203, 146, 119);
+                background-color: rgb(75, 81, 102);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 
 
                 .barchart {
