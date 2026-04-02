@@ -289,10 +289,28 @@ main {
             }
 
             .bottom-box-left {
+
+                 transition: all 0.3s ease;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgba(230, 230, 230, 0.121);
+                    transform: scale(1.05);
+                    box-shadow: 0 0 15px orange;
+
+                    .star{
+                        color: black;
+                    }
+
+                    p{
+                        color: black;
+                    }
+
+                }
+
                 text-align: left;
                 height: 145px;
                 width: 160px;
-                // background-color: rgba(230, 230, 230, 0.121);
                 background-color: rgb(75, 81, 102);
                 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
                 padding: 1.1rem 1.1rem;
@@ -329,6 +347,38 @@ main {
             top: -80%;
 
             .top-box-right {
+
+                   transition: all 0.3s ease;
+                cursor: pointer;
+
+                .ai-txt,.tagline, .pricetag{
+                    transition:  all 0.3s ease;
+                }
+
+                &:hover {
+                    background-color: rgba(230, 230, 230, 0.121);
+                    transform: scale(1.05);
+                    box-shadow: 0 0 15px orange;
+
+                    .chatai{
+                        color: white;
+                        background-color: black;
+                    }
+
+                    .ai-txt{
+                        .heading{
+                        color: black;
+                    }
+                    .tagline{
+                        color: black;
+                    }
+                    .pricetag{
+                        color: black;
+                    }
+
+                }
+            }
+
                 position: relative;
                 top: 50%;
                 left: 50%;
@@ -394,6 +444,46 @@ main {
             }
 
             .bottom-box-right {
+
+                transition: all 0.3s ease;
+                cursor: pointer;
+
+                .ai-txt,.tagline, .pricetag{
+                    transition:  all 0.3s ease;
+                }
+
+               &:hover {
+    background-color: rgba(230, 230, 230, 0.121);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px orange;
+
+    .barchart {
+      color: white;
+    }
+
+    .power-feature {
+
+      p {
+        color: white;
+      }
+
+      .arrow-txt {
+
+        .sign {
+          color: white;
+        }
+
+        .percentage {
+          color: white;
+        }
+
+        .arrow {
+          color: white;
+        }
+
+      }
+    }
+  }
                 display: flex;
                 gap: 1rem;
                 padding: 0.8rem;

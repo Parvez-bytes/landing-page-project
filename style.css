@@ -246,6 +246,21 @@ main .hero-circle .calorie-box-left .top-box-left .calorie-txt .calorie-dumb-img
   margin-top: -2rem;
 }
 main .hero-circle .calorie-box-left .bottom-box-left {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+main .hero-circle .calorie-box-left .bottom-box-left:hover {
+  background-color: rgba(230, 230, 230, 0.121);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px orange;
+}
+main .hero-circle .calorie-box-left .bottom-box-left:hover .star {
+  color: black;
+}
+main .hero-circle .calorie-box-left .bottom-box-left:hover p {
+  color: black;
+}
+main .hero-circle .calorie-box-left .bottom-box-left {
   text-align: left;
   height: 145px;
   width: 160px;
@@ -276,6 +291,31 @@ main .hero-circle .offer-box-right {
   position: relative;
   left: 65%;
   top: -80%;
+}
+main .hero-circle .offer-box-right .top-box-right {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+main .hero-circle .offer-box-right .top-box-right .ai-txt, main .hero-circle .offer-box-right .top-box-right .tagline, main .hero-circle .offer-box-right .top-box-right .pricetag {
+  transition: all 0.3s ease;
+}
+main .hero-circle .offer-box-right .top-box-right:hover {
+  background-color: rgba(230, 230, 230, 0.121);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px orange;
+}
+main .hero-circle .offer-box-right .top-box-right:hover .chatai {
+  color: white;
+  background-color: black;
+}
+main .hero-circle .offer-box-right .top-box-right:hover .ai-txt .heading {
+  color: black;
+}
+main .hero-circle .offer-box-right .top-box-right:hover .ai-txt .tagline {
+  color: black;
+}
+main .hero-circle .offer-box-right .top-box-right:hover .ai-txt .pricetag {
+  color: black;
 }
 main .hero-circle .offer-box-right .top-box-right {
   position: relative;
@@ -329,6 +369,33 @@ main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag .ai-price {
   font-weight: 300;
   font-size: 0.8rem;
   font-family: "Antic", sans-serif;
+}
+main .hero-circle .offer-box-right .bottom-box-right {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+main .hero-circle .offer-box-right .bottom-box-right .ai-txt, main .hero-circle .offer-box-right .bottom-box-right .tagline, main .hero-circle .offer-box-right .bottom-box-right .pricetag {
+  transition: all 0.3s ease;
+}
+main .hero-circle .offer-box-right .bottom-box-right:hover {
+  background-color: rgba(230, 230, 230, 0.121);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px orange;
+}
+main .hero-circle .offer-box-right .bottom-box-right:hover .barchart {
+  color: white;
+}
+main .hero-circle .offer-box-right .bottom-box-right:hover .power-feature p {
+  color: white;
+}
+main .hero-circle .offer-box-right .bottom-box-right:hover .power-feature .arrow-txt .sign {
+  color: white;
+}
+main .hero-circle .offer-box-right .bottom-box-right:hover .power-feature .arrow-txt .percentage {
+  color: white;
+}
+main .hero-circle .offer-box-right .bottom-box-right:hover .power-feature .arrow-txt .arrow {
+  color: white;
 }
 main .hero-circle .offer-box-right .bottom-box-right {
   display: flex;
