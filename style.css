@@ -213,7 +213,7 @@ main .hero-circle .calorie-box-left .top-box-left .num-kg {
   text-align: left;
   font-size: 2rem;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: bold;
   font-family: "Outfit", sans-serif;
   letter-spacing: 1px;
 }
@@ -296,7 +296,9 @@ main .hero-circle .offer-box-right .top-box-right {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-main .hero-circle .offer-box-right .top-box-right .ai-txt, main .hero-circle .offer-box-right .top-box-right .tagline, main .hero-circle .offer-box-right .top-box-right .pricetag {
+main .hero-circle .offer-box-right .top-box-right .ai-txt,
+main .hero-circle .offer-box-right .top-box-right .tagline,
+main .hero-circle .offer-box-right .top-box-right .pricetag {
   transition: all 0.3s ease;
 }
 main .hero-circle .offer-box-right .top-box-right:hover {
@@ -374,9 +376,6 @@ main .hero-circle .offer-box-right .bottom-box-right {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-main .hero-circle .offer-box-right .bottom-box-right .ai-txt, main .hero-circle .offer-box-right .bottom-box-right .tagline, main .hero-circle .offer-box-right .bottom-box-right .pricetag {
-  transition: all 0.3s ease;
-}
 main .hero-circle .offer-box-right .bottom-box-right:hover {
   background-color: rgba(230, 230, 230, 0.121);
   transform: scale(1.05);
@@ -413,7 +412,7 @@ main .hero-circle .offer-box-right .bottom-box-right {
 }
 main .hero-circle .offer-box-right .bottom-box-right .barchart {
   font-size: 5rem;
-  color: brown;
+  color: rgba(0, 0, 0, 0.489);
 }
 main .hero-circle .offer-box-right .bottom-box-right .power-feature p {
   color: black;

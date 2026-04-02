@@ -243,7 +243,7 @@ main {
                     text-align: left;
                     font-size: 2rem;
                     letter-spacing: 2px;
-                    font-weight: 500;
+                    font-weight: bold;
                     font-family: 'Outfit', sans-serif;
                     letter-spacing: 1px;
                 }
@@ -290,7 +290,7 @@ main {
 
             .bottom-box-left {
 
-                 transition: all 0.3s ease;
+                transition: all 0.3s ease;
                 cursor: pointer;
 
                 &:hover {
@@ -298,11 +298,11 @@ main {
                     transform: scale(1.05);
                     box-shadow: 0 0 15px orange;
 
-                    .star{
+                    .star {
                         color: black;
                     }
 
-                    p{
+                    p {
                         color: black;
                     }
 
@@ -348,11 +348,13 @@ main {
 
             .top-box-right {
 
-                   transition: all 0.3s ease;
+                transition: all 0.3s ease;
                 cursor: pointer;
 
-                .ai-txt,.tagline, .pricetag{
-                    transition:  all 0.3s ease;
+                .ai-txt,
+                .tagline,
+                .pricetag {
+                    transition: all 0.3s ease;
                 }
 
                 &:hover {
@@ -360,24 +362,26 @@ main {
                     transform: scale(1.05);
                     box-shadow: 0 0 15px orange;
 
-                    .chatai{
+                    .chatai {
                         color: white;
                         background-color: black;
                     }
 
-                    .ai-txt{
-                        .heading{
-                        color: black;
-                    }
-                    .tagline{
-                        color: black;
-                    }
-                    .pricetag{
-                        color: black;
-                    }
+                    .ai-txt {
+                        .heading {
+                            color: black;
+                        }
 
+                        .tagline {
+                            color: black;
+                        }
+
+                        .pricetag {
+                            color: black;
+                        }
+
+                    }
                 }
-            }
 
                 position: relative;
                 top: 50%;
@@ -448,42 +452,39 @@ main {
                 transition: all 0.3s ease;
                 cursor: pointer;
 
-                .ai-txt,.tagline, .pricetag{
-                    transition:  all 0.3s ease;
+                &:hover {
+                    background-color: rgba(230, 230, 230, 0.121);
+                    transform: scale(1.05);
+                    box-shadow: 0 0 15px orange;
+
+                    .barchart {
+                        color: white;
+                    }
+
+                    .power-feature {
+
+                        p {
+                            color: white;
+                        }
+
+                        .arrow-txt {
+
+                            .sign {
+                                color: white;
+                            }
+
+                            .percentage {
+                                color: white;
+                            }
+
+                            .arrow {
+                                color: white;
+                            }
+
+                        }
+                    }
                 }
 
-               &:hover {
-    background-color: rgba(230, 230, 230, 0.121);
-    transform: scale(1.05);
-    box-shadow: 0 0 15px orange;
-
-    .barchart {
-      color: white;
-    }
-
-    .power-feature {
-
-      p {
-        color: white;
-      }
-
-      .arrow-txt {
-
-        .sign {
-          color: white;
-        }
-
-        .percentage {
-          color: white;
-        }
-
-        .arrow {
-          color: white;
-        }
-
-      }
-    }
-  }
                 display: flex;
                 gap: 1rem;
                 padding: 0.8rem;
@@ -497,10 +498,9 @@ main {
                 background-color: rgb(75, 81, 102);
                 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 
-
                 .barchart {
                     font-size: 5rem;
-                    color: brown;
+                    color: rgba(0, 0, 0, 0.489);
                 }
 
                 .power-feature {
