@@ -174,17 +174,29 @@ main .hero-circle .calorie-box-left {
 }
 main .hero-circle .calorie-box-left .top-box-left {
   transition: all 0.3s ease;
+  cursor: pointer;
+}
+main .hero-circle .calorie-box-left .top-box-left .main-txt,
+main .hero-circle .calorie-box-left .top-box-left .dumble-img,
+main .hero-circle .calorie-box-left .top-box-left .offer-txt {
+  transition: all 0.3s ease;
 }
 main .hero-circle .calorie-box-left .top-box-left:hover {
   background-color: rgba(230, 230, 230, 0.121);
   transform: scale(1.05);
+  box-shadow: 0 0 15px orange;
 }
 main .hero-circle .calorie-box-left .top-box-left:hover .num-kg {
   color: white;
 }
-main .hero-circle .calorie-box-left .top-box-left:hover .offer-txt {
+main .hero-circle .calorie-box-left .top-box-left:hover .calorie-txt .left .main-txt {
+  color: white;
+}
+main .hero-circle .calorie-box-left .top-box-left:hover .calorie-txt .left .offer-txt {
   background-color: orange;
-  color: rgb(255, 255, 255);
+}
+main .hero-circle .calorie-box-left .top-box-left:hover .calorie-dumb-img .dumble-img {
+  transform: scale(1.1);
 }
 main .hero-circle .calorie-box-left .top-box-left {
   background-color: rgb(207, 185, 175);
@@ -213,9 +225,6 @@ main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .main-txt {
   color: rgb(0, 0, 0);
   font-size: 1rem;
   text-align: left;
-}
-main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .main-txt:hover .main-txt {
-  color: white;
 }
 main .hero-circle .calorie-box-left .top-box-left .calorie-txt .left .offer-txt {
   width: 65px;
