@@ -42,12 +42,30 @@ nav .menu {
   font-family: "Montserrat", sans-serif;
 }
 nav .menu p {
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+nav .menu p:hover {
+  border-bottom: 3px solid rgba(13, 0, 73, 0.625);
+  border-radius: 20px;
+  border-top: 3px solid rgba(13, 0, 73, 0.625);
+  padding: 5px 10px;
+}
+nav .menu p {
   margin: 0;
 }
 nav .Info {
   display: flex;
   gap: 25px;
   align-items: center;
+}
+nav .Info button {
+  transition: all 0.3s ease;
+}
+nav .Info button:hover {
+  background-color: rgb(34, 45, 65);
+  color: white;
+  box-shadow: 0 0 10px white;
 }
 nav .Info button {
   background-color: rgb(245, 169, 133);
@@ -94,6 +112,14 @@ main .main-btn {
   margin-bottom: 7rem;
 }
 main .main-btn .trail-btn {
+  transition: all 0.3s ease;
+}
+main .main-btn .trail-btn:hover {
+  background-color: rgb(34, 45, 65);
+  color: white;
+  box-shadow: 0 0 10px white;
+}
+main .main-btn .trail-btn {
   background-color: rgb(245, 169, 133);
   padding: 12px 20px;
   font-size: medium;
@@ -103,6 +129,14 @@ main .main-btn .trail-btn {
   line-height: 1;
   font-size: 1.2rem;
   font-family: "Outfit", sans-serif;
+}
+main .main-btn .demo-btn {
+  transition: all 0.3s ease;
+}
+main .main-btn .demo-btn:hover {
+  background-color: rgb(34, 45, 65);
+  color: white;
+  box-shadow: 0 0 10px white;
 }
 main .main-btn .demo-btn {
   color: white;

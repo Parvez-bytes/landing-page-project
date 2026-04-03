@@ -40,12 +40,25 @@ nav {
 
 
     .menu {
+
         display: flex;
         gap: 3.5rem;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
 
         p {
+
+            transition: all 0.8s ease;
+            cursor: pointer;
+
+            &:hover {
+                border-bottom:3px solid rgba(13, 0, 73, 0.625);
+                border-radius: 20px;
+                border-top: 3px solid rgba(13, 0, 73, 0.625);
+                padding:5px 10px
+
+            }
+
             margin: 0;
         }
     }
@@ -56,6 +69,14 @@ nav {
         align-items: center;
 
         button {
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: rgba(34, 45, 65);
+                color: white;
+                box-shadow: 0 0 10px white;
+            }
+
             background-color: rgba(245, 169, 133);
             padding: 10px 15px;
             font-size: medium;
@@ -63,9 +84,9 @@ nav {
             border-radius: 50px;
             display: inline-block;
             line-height: 1;
-            // font-size: 1.1rem;
             font-weight: 500;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Outfit',
+            sans-serif;
         }
     }
 
@@ -107,6 +128,14 @@ main {
         margin-bottom: 7rem;
 
         .trail-btn {
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: rgba(34, 45, 65);
+                color: white;
+                box-shadow: 0 0 10px white;
+            }
+
             background-color: rgba(245, 169, 133);
             padding: 12px 20px;
             font-size: medium;
@@ -115,10 +144,19 @@ main {
             display: inline-block;
             line-height: 1;
             font-size: 1.2rem;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Outfit',
+            sans-serif;
         }
 
         .demo-btn {
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: rgba(34, 45, 65);
+                color: white;
+                box-shadow: 0 0 10px white;
+            }
+
             color: white;
             border-color: rgb(255, 255, 255);
             border-width: 0.1rem;
@@ -129,7 +167,8 @@ main {
             line-height: 1;
             font-size: 1.2rem;
             font-weight: 300;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Outfit',
+            sans-serif;
         }
     }
 
