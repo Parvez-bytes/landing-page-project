@@ -631,7 +631,7 @@ main {
 
     .footer-details {
         display: flex;
-        padding: 3rem;
+        padding: 5rem;
         justify-content: space-between;
         overflow: hidden;
 
@@ -645,7 +645,7 @@ main {
             .input-line {
                 font-size: 3.5rem;
                 font-weight: bolder;
-                color: rgb(25, 39, 66);
+                color: white;
             }
 
             input {
@@ -654,10 +654,29 @@ main {
                 outline: none;
                 background: transparent;
                 color: white;
+                width:40rem;
+            }
+
+            .mail-input{
+                display: flex;
+                // gap:3rem;
+
+                .arrow{
+                    color: white;
+                    font-size:1.5rem;
+                    font-weight: 100;
+
+                    &:hover{
+                        color: gray;
+                    }
+                }
+
+
             }
 
             input:focus {
-                border-bottom: 2px solid rgb(255, 0, 0);
+                border-bottom: 2px solid white;
+                
             }
 
             .follow {
@@ -714,6 +733,46 @@ main {
             width: 45%;
             display: flex;
             gap: 10rem;
+            font-family: 'Outfit', sans-serif;
+            margin-top: 1.1rem;
+            margin-left:20rem;
+
+            .terms {
+                color: gray;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                font-weight: 300;
+
+                .heading {
+                    font-size:1.5rem;
+                    font-weight: bold;
+                    color: white;
+                    cursor: none;
+                }
+
+                p {
+                    cursor: pointer;
+                }
+            }
+            .link {
+                color: gray;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                font-weight: 300;
+
+                .heading {
+                    font-size:1.5rem;
+                    font-weight: bold;
+                    color: white;
+                    cursor: none;
+                }
+
+                p {
+                    cursor: pointer;
+                }
+            }
         }
     }
 
