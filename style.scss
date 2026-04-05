@@ -615,7 +615,7 @@ main {
             font-weight: bolder;
             font-family: 'Ten';
             transition: all 0.5s ease-in-out;
-            opacity: 0.1;
+            opacity: 0;
 
             &:hover {
                 opacity: 0.5;
@@ -636,7 +636,7 @@ main {
         overflow: hidden;
 
         .footer-left {
-            font-family: 'Antic', sans-serif;
+            font-family: 'Outfit', sans-serif;
             width: 50%;
             display: flex;
             flex-direction: column;
@@ -644,11 +644,8 @@ main {
 
             .input-line {
                 font-size: 3.5rem;
-                font-weight: 900;
-            }
-
-            .social-media {
-                display: flex;
+                font-weight: bolder;
+                color: rgb(25, 39, 66);
             }
 
             input {
@@ -663,17 +660,54 @@ main {
                 border-bottom: 2px solid rgb(255, 0, 0);
             }
 
-            .follow{
-                font-size:1.5rem;
+            .follow {
+                font-size: 1.5rem;
                 font-weight: bolder;
                 color: white;
                 margin-top: 3rem;
             }
 
+            .social-media {
+                display: flex;
+                gap: 2rem;
+                transition: all 0.3s ease-in-out;
 
+                i {
+                    font-size: 2rem;
+                    transition: all 0.3s ease-in-out;
+                }
 
+                .instagram {
+                    &:hover {
+                        color: #962fbf;
+                        transform: scale(1.2);
+                    }
+                }
 
+                .twitter {
+                    &:hover {
+                        color: rgb(96, 152, 189);
+                        transform: scale(1.2);
 
+                    }
+                }
+
+                .linkedin {
+                    &:hover {
+                        color: rgb(4, 41, 143);
+                        transform: scale(1.2);
+
+                    }
+                }
+
+                .youtube {
+                    &:hover {
+                        color: rgb(232, 12, 12);
+                        transform: scale(1.2);
+
+                    }
+                }
+            }
         }
 
         .footer-right {
