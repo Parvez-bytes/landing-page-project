@@ -654,19 +654,19 @@ main {
                 outline: none;
                 background: transparent;
                 color: white;
-                width:40rem;
+                width: 40rem;
             }
 
-            .mail-input{
+            .mail-input {
                 display: flex;
                 // gap:3rem;
 
-                .arrow{
+                .arrow {
                     color: white;
-                    font-size:1.5rem;
+                    font-size: 1.5rem;
                     font-weight: 100;
 
-                    &:hover{
+                    &:hover {
                         color: gray;
                     }
                 }
@@ -676,11 +676,11 @@ main {
 
             input:focus {
                 border-bottom: 2px solid white;
-                
+
             }
 
             .follow {
-                font-size: 1.5rem;
+                font-size: 1.1rem;
                 font-weight: bolder;
                 color: white;
                 margin-top: 3rem;
@@ -688,7 +688,7 @@ main {
 
             .social-media {
                 display: flex;
-                gap: 2rem;
+                gap: 1.5rem;
                 transition: all 0.3s ease-in-out;
 
                 i {
@@ -735,7 +735,7 @@ main {
             gap: 10rem;
             font-family: 'Outfit', sans-serif;
             margin-top: 1.1rem;
-            margin-left:20rem;
+            margin-left: 20rem;
 
             .terms {
                 color: gray;
@@ -745,7 +745,7 @@ main {
                 font-weight: 300;
 
                 .heading {
-                    font-size:1.5rem;
+                    font-size: 1.5rem;
                     font-weight: bold;
                     color: white;
                     cursor: none;
@@ -755,6 +755,7 @@ main {
                     cursor: pointer;
                 }
             }
+
             .link {
                 color: gray;
                 display: flex;
@@ -763,7 +764,7 @@ main {
                 font-weight: 300;
 
                 .heading {
-                    font-size:1.5rem;
+                    font-size: 1.5rem;
                     font-weight: bold;
                     color: white;
                     cursor: none;
@@ -772,6 +773,24 @@ main {
                 p {
                     cursor: pointer;
                 }
+            }
+        }
+    }
+
+    .footer-endline {
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+            letter-spacing: 0.5px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 15px;
+            padding-bottom:0.5rem;
+            transition: 0.3s ease;
+
+            &:hover{
+                color: tomato;
             }
         }
     }

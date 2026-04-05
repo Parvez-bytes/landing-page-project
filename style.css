@@ -550,14 +550,14 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   border-bottom: 2px solid white;
 }
 #footer .footer-details .footer-left .follow {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: bolder;
   color: white;
   margin-top: 3rem;
 }
 #footer .footer-details .footer-left .social-media {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   transition: all 0.3s ease-in-out;
 }
 #footer .footer-details .footer-left .social-media i {
@@ -619,4 +619,18 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
 }
 #footer .footer-details .footer-right .link p {
   cursor: pointer;
+}
+#footer .footer-endline p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.5px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  padding-bottom: 0.5rem;
+  transition: 0.3s ease;
+}
+#footer .footer-endline p:hover {
+  color: tomato;
 }/*# sourceMappingURL=style.css.map */
