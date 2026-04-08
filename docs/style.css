@@ -636,4 +636,68 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
 }
 #footer .footer-endline p:hover {
   color: tomato;
+}
+
+@media only screen and (max-width: 455px) {
+  nav .brand .dumble-img {
+    height: 20%;
+    width: 20%;
+  }
+  nav .brand p {
+    font-size: 1rem;
+  }
+  nav .menu {
+    display: none;
+  }
+  nav .Info {
+    display: none;
+  }
+  main .main-heading-line {
+    font-size: 1.5rem;
+  }
+  main p {
+    font-size: 0.5rem;
+  }
+  main .main-btn {
+    flex-direction: column;
+  }
+  main .main-btn .trail-btn {
+    width: 100%;
+    height: 5%;
+    font-size: smaller;
+    border-radius: 10px;
+  }
+  main .main-btn .demo-btn {
+    width: 100%;
+    height: 5%;
+    font-size: smaller;
+    border-radius: 10px;
+  }
+  main .hero-circle .line-circle {
+    display: none;
+  }
+  main .hero-circle .dashed-circle {
+    display: none;
+  }
+  main .hero-circle .gym-boy {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .hero-circle .calorie-box-left {
+    display: none;
+  }
+  main .hero-circle .offer-box-right {
+    display: none;
+  }
+  #footer .Author-name {
+    width: 100%;
+  }
+  #footer .Author-name p {
+    font-size: 5rem;
+  }
+  #footer .footer-details {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

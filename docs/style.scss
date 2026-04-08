@@ -799,3 +799,100 @@ main {
     }
 
 }
+
+@media only screen and (max-width:455px) {
+    nav{
+
+        .brand{
+            .dumble-img{
+                height: 20%;
+                width: 20%;
+            }
+            p{
+                font-size:1rem;
+            }
+        }
+        .menu{
+            display: none;
+        }
+        .Info{
+            display: none;
+        }
+    }
+    
+    main{
+        .main-heading-line{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.5rem;
+        }
+        .main-btn{
+            flex-direction: column;
+            .trail-btn{
+                width:100%;
+                height:5%;
+                font-size: smaller;
+                border-radius: 10px;
+            }
+            .demo-btn{
+                width:100%;
+                height:5%;
+                font-size: smaller;
+                border-radius: 10px;
+            }
+        }
+
+        .hero-circle{
+            // position: static;
+
+            .line-circle{
+                display: none;
+            }
+            .dashed-circle{
+                display: none;
+            }
+            .gym-boy{
+                height:100% ;
+                width: 100%;
+                object-fit: cover;
+            }
+
+
+            .calorie-box-left{
+                display: none;
+            }
+            .offer-box-right{
+                display: none;
+            }
+
+        }
+
+
+    }
+
+    #footer{
+        // display: none;
+
+        .Author-name{
+            width: 100%;
+
+            p{
+                font-size: 5rem;
+            }
+        }
+        .footer-details{
+            flex-direction: column;
+            .footer-left{
+                // display: none;
+            }
+
+            .footer-right{
+                // display: none;
+            }
+        }
+        .footer-endline{
+            // display: none;
+        }
+    }
+}
