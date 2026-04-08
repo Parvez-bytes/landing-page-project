@@ -220,7 +220,8 @@ main {
 
         .dashed-circle {
             border: 2.5px dashed rgba(128, 128, 128, 0.396);
-            width: 850px;
+            width: 130%;
+            max-width: 850px;
             height: 425px;
             border-top-left-radius: 425px;
             border-top-right-radius: 425px;
