@@ -489,7 +489,7 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
 }
 
 #footer {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 #footer .Author-name {
@@ -514,6 +514,7 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   padding: 5rem;
   justify-content: space-between;
   overflow: hidden;
+  gap: 2rem;
 }
 #footer .footer-details .footer-left {
   font-family: "Outfit", sans-serif;
@@ -581,12 +582,13 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   transform: scale(1.2);
 }
 #footer .footer-details .footer-right {
-  width: 45%;
+  width: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10rem;
   font-family: "Outfit", sans-serif;
   margin-top: 1.1rem;
-  margin-left: 20rem;
 }
 #footer .footer-details .footer-right .terms {
   color: gray;
@@ -633,29 +635,4 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
 }
 #footer .footer-endline p:hover {
   color: tomato;
-}
-
-@media (max-width: 900px) {
-  body {
-    width: 100%;
-  }
-  nav .brand {
-    gap: 3px;
-    justify-content: center;
-    align-items: center;
-  }
-  nav .brand .dumble-img {
-    height: 2.6rem;
-    width: 2.6rem;
-  }
-  nav .brand p {
-    font-size: 2.5rem;
-    font-family: "BrushPains", sans-serif;
-  }
-  nav .menu {
-    display: none;
-  }
-  nav .Info {
-    display: none;
-  }
 }/*# sourceMappingURL=style.css.map */

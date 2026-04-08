@@ -601,7 +601,7 @@ main {
 }
 
 #footer {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 
     .Author-name {
@@ -634,6 +634,7 @@ main {
         padding: 5rem;
         justify-content: space-between;
         overflow: hidden;
+        gap: 2rem;
 
         .footer-left {
             font-family: 'Outfit', sans-serif;
@@ -730,12 +731,13 @@ main {
         }
 
         .footer-right {
-            width: 45%;
+            width: 50%;
             display: flex;
+            justify-content: center;
+            align-items: center;
             gap: 10rem;
             font-family: 'Outfit', sans-serif;
             margin-top: 1.1rem;
-            margin-left: 20rem;
 
             .terms {
                 color: gray;
@@ -786,46 +788,13 @@ main {
             text-align: center;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             padding-top: 15px;
-            padding-bottom:0.5rem;
+            padding-bottom: 0.5rem;
             transition: 0.3s ease;
 
-            &:hover{
+            &:hover {
                 color: tomato;
             }
         }
     }
 
-}
-
-@media(max-width:900px){
-    body{
-        width: 100%;
-    }
-    nav{
-        .brand {
-        // display: flex;
-        gap: 3px;
-        justify-content: center;
-        align-items: center;
-
-        .dumble-img {
-            height: 2.6rem;
-            width: 2.6rem;
-        }
-
-        p {
-            font-size: 2.5rem;
-            font-family: 'BrushPains', sans-serif;
-        }
-    }
-    
-        .menu{
-            display: none;
-        }
-
-        .Info{
-            display: none;
-        }
-        
-    }
 }
