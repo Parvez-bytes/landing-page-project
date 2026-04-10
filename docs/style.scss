@@ -891,25 +891,6 @@ main {
                 margin-left: 5rem;
             }
 
-            // .calorie-box-left {
-            //     // display: none;
-            //     position: absolute;
-            //     display: flex;
-            //     flex-direction: column;
-            //     z-index:4;
-
-            //     .top-box-left{
-            //         position: relative;
-            //         top: ;
-            //     }
-            // }
-
-            // .offer-box-right {
-            //     // display: none;
-            //     display: flex;
-            //     flex-direction: column;
-
-            // }
 
             .calorie-box-left {
                 left: -90px !important;
@@ -967,7 +948,48 @@ main {
             }
 
             .offer-box-right {
-                display: none;
+                // display: none; 
+                  left: -90px !important;
+                top: auto !important;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-top:58rem;
+
+                .top-box-right{
+                    width:190%;
+                    height:80px;
+                    position: static !important;
+
+                    &:hover{
+                        transform: scale(1.01);
+                    }
+
+                    .ai-txt{
+                        .heading{
+                            font-size: 1rem;
+                        }
+
+                        .tagpara{
+                            display: flex;
+                            gap: 2rem;
+                        }
+
+                        .tagline{
+                            width: 100%;
+                            font-size:0.8rem;
+                        }
+
+                        .pricetag{
+                           font-size:1rem;
+                        }
+
+
+                    }
+
+                }
+                
+
             }
         }
 

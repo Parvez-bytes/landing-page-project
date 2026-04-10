@@ -752,7 +752,34 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     font-size: 1.5rem;
   }
   main .hero-circle .offer-box-right {
-    display: none;
+    left: -90px !important;
+    top: auto !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 58rem;
+  }
+  main .hero-circle .offer-box-right .top-box-right {
+    width: 190%;
+    height: 80px;
+    position: static !important;
+  }
+  main .hero-circle .offer-box-right .top-box-right:hover {
+    transform: scale(1.01);
+  }
+  main .hero-circle .offer-box-right .top-box-right .ai-txt .heading {
+    font-size: 1rem;
+  }
+  main .hero-circle .offer-box-right .top-box-right .ai-txt .tagpara {
+    display: flex;
+    gap: 2rem;
+  }
+  main .hero-circle .offer-box-right .top-box-right .ai-txt .tagline {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  main .hero-circle .offer-box-right .top-box-right .ai-txt .pricetag {
+    font-size: 1rem;
   }
   #footer {
     display: none;
