@@ -1071,9 +1071,7 @@ main {
         }
 
         .footer-details {
-            // display: flex;
             flex-direction: column;
-            // justify-content: flex-start;
             padding: 1rem;
 
             .footer-left {
@@ -1095,12 +1093,47 @@ main {
             }
 
             .footer-right {
-                // display: none;
+                margin-top: -8rem;
+                width: 25%;
+                gap: 10rem;
+                padding: 10rem;
+
+                .terms{
+                    gap:0.5rem;
+                    
+                    .heading{
+                        color: rgb(189, 179, 179);
+                        font-size:1.5rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .link{
+                    gap:0.8rem;
+
+                      .heading{
+                        color: rgb(189, 179, 179);
+                        font-size:1.5rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+
+                }
+                
+
             }
         }
 
         .footer-endline {
-            // display: none;
+            margin-top: -8rem;
+            p{
+            border-top:2px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0;
+            }
+
         }
     }
 }

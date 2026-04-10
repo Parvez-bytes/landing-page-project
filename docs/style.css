@@ -858,4 +858,37 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   #footer .footer-details .footer-left input {
     width: 150%;
   }
+  #footer .footer-details .footer-right {
+    margin-top: -8rem;
+    width: 25%;
+    gap: 10rem;
+    padding: 10rem;
+  }
+  #footer .footer-details .footer-right .terms {
+    gap: 0.5rem;
+  }
+  #footer .footer-details .footer-right .terms .heading {
+    color: rgb(189, 179, 179);
+    font-size: 1.5rem;
+  }
+  #footer .footer-details .footer-right .terms p {
+    font-size: 0.8rem;
+  }
+  #footer .footer-details .footer-right .link {
+    gap: 0.8rem;
+  }
+  #footer .footer-details .footer-right .link .heading {
+    color: rgb(189, 179, 179);
+    font-size: 1.5rem;
+  }
+  #footer .footer-details .footer-right .link p {
+    font-size: 0.8rem;
+  }
+  #footer .footer-endline {
+    margin-top: -8rem;
+  }
+  #footer .footer-endline p {
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
