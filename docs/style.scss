@@ -948,13 +948,13 @@ main {
             }
 
             .offer-box-right {
-                // display: none; 
                   left: -90px !important;
                 top: auto !important;
                 display: flex;
+                gap: 2rem;
                 flex-direction: column;
                 width: 100%;
-                margin-top:58rem;
+                margin-top:65rem;
 
                 .top-box-right{
                     width:190%;
@@ -986,6 +986,62 @@ main {
 
 
                     }
+
+                }
+
+                .bottom-box-right{
+                    width:190%;
+                    height:80px;
+                    position: static !important;
+
+                    &:hover{
+                        transform: scale(1.01);
+                    }
+
+                    .barchart{
+                        font-size:4rem;
+                    }
+
+                    .power-feature{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 4.5rem;
+
+
+                        p{
+                            font-size:1.5rem;
+                            font-weight: bolder;
+                            margin-top: -0.1rem;
+                            width:40%;
+                            // background-color: tomato;
+                        }
+
+                        .arrow-txt{
+
+                            display: flex;
+                            // justify-content: center;
+                            align-items: center;
+                            flex-direction: row;
+                            gap: -10rem;
+                            margin-left:-1rem;
+                            width: 50%;
+
+                            .sign{
+                                font-size:2rem;
+                            }
+                            .percentage{
+                                font-size: 2rem;
+                            }
+                            .arrow{
+                                position: absolute;
+                                right:-10rem;
+                                bottom:1.3rem;
+                                font-size:2.5rem;
+                            }
+                            
+                        }
+                    }
+
 
                 }
                 
