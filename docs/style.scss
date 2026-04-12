@@ -900,25 +900,25 @@ main {
                 gap: 1.5rem;
 
                 width: 100%;
-                margin-top:38rem;
+                margin-top: 38rem;
 
                 .top-box-left {
                     display: flex;
-                    gap:0.5rem;
-                    width:190%;
-                    height:80px;
+                    gap: 0.5rem;
+                    width: 190%;
+                    height: 80px;
                     position: static !important;
 
-                    .num-kg{
+                    .num-kg {
                         font-size: 1.5rem;
                     }
 
-                    .calorie-txt{
+                    .calorie-txt {
                         display: flex;
-                        gap:5rem;
+                        gap: 5rem;
                     }
 
-                    &:hover{
+                    &:hover {
                         transform: scale(1.01);
                     }
                 }
@@ -926,62 +926,62 @@ main {
                 .bottom-box-left {
                     // display: none;
                     margin-top: -0.01rem;
-                    width:190%;
-                    height:80px;
+                    width: 190%;
+                    height: 80px;
                     position: static !important;
                     flex-direction: row;
                     gap: 1rem;
 
-                    &:hover{
+                    &:hover {
                         transform: scale(1.01);
                     }
-                    
+
                     .star {
-                        font-size:2.5rem;
+                        font-size: 2.5rem;
                     }
 
                     p {
-                        margin-top:0.5rem;
-                        font-size:1.5rem;
+                        margin-top: 0.5rem;
+                        font-size: 1.5rem;
                     }
                 }
             }
 
             .offer-box-right {
-                  left: -90px !important;
+                left: -90px !important;
                 top: auto !important;
                 display: flex;
                 gap: 2rem;
                 flex-direction: column;
                 width: 100%;
-                margin-top:65rem;
+                margin-top: 65rem;
 
-                .top-box-right{
-                    width:190%;
-                    height:80px;
+                .top-box-right {
+                    width: 190%;
+                    height: 80px;
                     position: static !important;
 
-                    &:hover{
+                    &:hover {
                         transform: scale(1.01);
                     }
 
-                    .ai-txt{
-                        .heading{
+                    .ai-txt {
+                        .heading {
                             font-size: 1rem;
                         }
 
-                        .tagpara{
+                        .tagpara {
                             display: flex;
                             gap: 2rem;
                         }
 
-                        .tagline{
+                        .tagline {
                             width: 100%;
-                            font-size:0.8rem;
+                            font-size: 0.8rem;
                         }
 
-                        .pricetag{
-                           font-size:1rem;
+                        .pricetag {
+                            font-size: 1rem;
                         }
 
 
@@ -989,65 +989,67 @@ main {
 
                 }
 
-                .bottom-box-right{
-                    width:190%;
-                    height:80px;
+                .bottom-box-right {
+                    width: 190%;
+                    height: 80px;
                     position: static !important;
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
-                    &:hover{
+                    &:hover {
                         transform: scale(1.01);
                     }
 
-                    .barchart{
-                        font-size:4rem;
+                    .barchart {
+                        font-size: 4rem;
                     }
 
-                    .power-feature{
+                    .power-feature {
                         display: flex;
                         flex-direction: row;
                         gap: 4.5rem;
 
 
-                        p{
-                            font-size:1.5rem;
+                        p {
+                            font-size: 1.5rem;
                             font-weight: bolder;
                             margin-top: -0.1rem;
-                            width:40%;
+                            width: 40%;
                             // background-color: tomato;
                         }
 
-                        .arrow-txt{
+                        .arrow-txt {
 
                             display: flex;
                             // justify-content: center;
                             align-items: center;
                             flex-direction: row;
                             gap: -10rem;
-                            margin-left:-1rem;
+                            margin-left: -1rem;
                             width: 50%;
 
-                            .sign{
-                                font-size:2rem;
-                            }
-                            .percentage{
+                            .sign {
                                 font-size: 2rem;
                             }
-                            .arrow{
-                                position: absolute;
-                                right:-10rem;
-                                bottom:1.3rem;
-                                font-size:2.5rem;
+
+                            .percentage {
+                                font-size: 2rem;
                             }
-                            
+
+                            .arrow {
+                                position: absolute;
+                                right: -10rem;
+                                bottom: 1.3rem;
+                                font-size: 2.5rem;
+                            }
+
                         }
                     }
 
 
                 }
-                
+
 
             }
         }
@@ -1057,12 +1059,14 @@ main {
 
     #footer {
         // display: none;
-        margin-top:-12rem;
+        margin-top: -12rem;
 
         .Author-name {
             // display: none;
+
             width: 100%;
             margin-bottom: 2rem;
+
             p {
                 font-size: 5rem;
                 color: black;
@@ -1078,16 +1082,41 @@ main {
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                .input-line{
-                    width:20rem;
+
+                .input-line {
+                    width: 20rem;
                     text-align: left;
-                    justify-content:start;
-                    font-size:1.5rem;
+                    justify-content: start;
+                    font-size: 1.5rem;
                 }
 
-                input{
-                    width:150%;
+                input {
+                    width: 150%;
                 }
+
+                .social-media {
+                    .instagram {
+                        color: #962fbf;
+
+                    }
+
+                    .twitter {
+                        color: rgb(96, 152, 189);
+
+                    }
+
+                    .linkedin {
+                        color: rgb(4, 41, 143);
+
+                    }
+
+                    .youtube {
+                        color: rgb(232, 12, 12);
+
+                    }
+                }
+
+
 
             }
 
@@ -1097,40 +1126,42 @@ main {
                 gap: 10rem;
                 padding: 10rem;
 
-                .terms{
-                    gap:0.5rem;
-                    
-                    .heading{
+                .terms {
+                    gap: 0.5rem;
+
+                    .heading {
                         color: rgb(189, 179, 179);
-                        font-size:1.5rem;
+                        font-size: 1.5rem;
                     }
-                    p{
+
+                    p {
                         font-size: 0.8rem;
                     }
                 }
 
-                .link{
-                    gap:0.8rem;
+                .link {
+                    gap: 0.8rem;
 
-                      .heading{
+                    .heading {
                         color: rgb(189, 179, 179);
-                        font-size:1.5rem;
+                        font-size: 1.5rem;
                     }
-                    p{
+
+                    p {
                         font-size: 0.8rem;
                     }
-
                 }
-                
+
 
             }
         }
 
         .footer-endline {
             margin-top: -8rem;
-            p{
-            border-top:2px solid rgba(255, 255, 255, 0.1);
-            padding-bottom: 0;
+
+            p {
+                border-top: 2px solid rgba(255, 255, 255, 0.1);
+                padding-bottom: 0;
             }
 
         }
