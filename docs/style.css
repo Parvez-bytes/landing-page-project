@@ -643,10 +643,18 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     padding: 0.5rem;
   }
   nav {
-    flex-direction: row-reverse;
-    gap: 4rem;
+    position: relative;
+  }
+  nav .menu-icon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
   }
   nav .brand {
+    margin: 0 auto;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -677,7 +685,8 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     color: black;
     align-items: flex-start;
     z-index: 9999;
-    transform: translateX(0%);
+    transform: translateX(-100%);
+    /* hidden initially */
     transition: transform 0.4s ease;
   }
   nav .Info {
