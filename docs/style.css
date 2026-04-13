@@ -672,6 +672,7 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     display: flex;
     align-items: center;
     text-align: center;
+    font-size: 1.5rem;
   }
   nav .menu {
     position: fixed;
@@ -686,8 +687,10 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     align-items: flex-start;
     z-index: 9999;
     transform: translateX(-100%);
-    /* hidden initially */
     transition: transform 0.4s ease;
+  }
+  nav .menu.active {
+    transform: translateX(0%);
   }
   nav .Info {
     display: none;
