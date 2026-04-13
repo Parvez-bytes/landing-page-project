@@ -58,6 +58,10 @@ nav {
         align-items: center;
         font-family: 'Montserrat', sans-serif;
 
+        .menu-icon {
+            // display: none;
+        }
+
         p {
 
             transition: all 0.8s ease;
@@ -807,6 +811,11 @@ main {
     }
 
     nav {
+        flex-direction: row-reverse;
+        gap: 4rem;
+        // justify-content: flex-start;
+        // justify-content: flex-start;
+
 
         .brand {
             display: flex;
@@ -826,7 +835,28 @@ main {
         }
 
         .menu {
-            display: none;
+
+
+            .menu-cross {
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+            
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #fff;
+            gap: 1rem;
+            flex-direction: column;
+            color: black;
+            align-items: flex-start;
+            z-index: 9999;
+            // transform: translateX(-100%); /* hidden initially */
+            transform: translateX(0%);
+            transition: transform 0.4s ease;
         }
 
         .Info {

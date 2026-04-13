@@ -642,6 +642,10 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   body {
     padding: 0.5rem;
   }
+  nav {
+    flex-direction: row-reverse;
+    gap: 4rem;
+  }
   nav .brand {
     display: flex;
     justify-content: center;
@@ -656,8 +660,25 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     font-size: 3rem;
     margin-top: 0.5rem;
   }
+  nav .menu .menu-cross {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
   nav .menu {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    gap: 1rem;
+    flex-direction: column;
+    color: black;
+    align-items: flex-start;
+    z-index: 9999;
+    transform: translateX(0%);
+    transition: transform 0.4s ease;
   }
   nav .Info {
     display: none;
