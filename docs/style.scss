@@ -50,8 +50,18 @@ nav {
         }
     }
 
+    .menu-icon{
+        display: none;
+    }
+
 
     .menu {
+
+        .menu-cross{
+            display: none;
+        }
+
+
 
         display: flex;
         gap: 3.5rem;
@@ -810,6 +820,7 @@ main {
         position: relative;
 
         .menu-icon {
+            display: block;
             position: absolute;
             top: 1rem;
             left: 1rem;
@@ -847,6 +858,7 @@ main {
             }
 
             .menu-cross {
+                display: block;
                 display: flex;
                 align-items: center;
                 text-align: center;

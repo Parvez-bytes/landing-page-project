@@ -45,6 +45,12 @@ nav .brand p {
   font-size: 2.5rem;
   font-family: "BrushPains", sans-serif;
 }
+nav .menu-icon {
+  display: none;
+}
+nav .menu .menu-cross {
+  display: none;
+}
 nav .menu {
   display: flex;
   gap: 3.5rem;
@@ -646,6 +652,7 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     position: relative;
   }
   nav .menu-icon {
+    display: block;
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -677,6 +684,7 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     font-weight: 600;
   }
   nav .menu .menu-cross {
+    display: block;
     display: flex;
     align-items: center;
     text-align: center;
