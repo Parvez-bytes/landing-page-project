@@ -567,6 +567,10 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   color: white;
   margin-top: 3rem;
 }
+#footer .footer-details .footer-left .social-media a {
+  color: inherit;
+  text-decoration: none;
+}
 #footer .footer-details .footer-left .social-media {
   display: flex;
   gap: 1.5rem;

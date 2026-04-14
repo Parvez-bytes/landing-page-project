@@ -703,6 +703,13 @@ main {
             }
 
             .social-media {
+
+                   a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+                
                 display: flex;
                 gap: 1.5rem;
                 transition: all 0.3s ease-in-out;
