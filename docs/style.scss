@@ -1111,8 +1111,8 @@ main {
         margin-top: -12rem;
 
         .Author-name {
-            // display: none;
-
+            user-select: none;
+            -webkit-user-select: none;
             width: 100%;
             margin-bottom: 2rem;
 

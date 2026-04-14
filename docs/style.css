@@ -878,6 +878,9 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
     margin-top: -12rem;
   }
   #footer .Author-name {
+    -moz-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
     width: 100%;
     margin-bottom: 2rem;
   }
