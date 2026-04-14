@@ -592,8 +592,8 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   color: rgb(4, 41, 143);
   transform: scale(1.2);
 }
-#footer .footer-details .footer-left .social-media .youtube:hover {
-  color: rgb(232, 12, 12);
+#footer .footer-details .footer-left .social-media .github:hover {
+  color: yellow;
   transform: scale(1.2);
 }
 #footer .footer-details .footer-right {
@@ -920,8 +920,8 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   #footer .footer-details .footer-left .social-media .linkedin {
     color: rgb(4, 41, 143);
   }
-  #footer .footer-details .footer-left .social-media .youtube {
-    color: rgb(232, 12, 12);
+  #footer .footer-details .footer-left .social-media .github {
+    color: yellow;
   }
   #footer .footer-details .footer-right {
     margin-top: -8rem;
