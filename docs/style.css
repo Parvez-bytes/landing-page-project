@@ -865,22 +865,14 @@ main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .
   main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    gap: -10rem;
-    margin-left: -1rem;
-    width: 50%;
   }
   main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .sign {
+    display: flex;
+    flex-direction: row;
     font-size: 2rem;
   }
   main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .percentage {
     font-size: 2rem;
-  }
-  main .hero-circle .offer-box-right .bottom-box-right .power-feature .arrow-txt .arrow {
-    position: absolute;
-    right: -10rem;
-    bottom: 1.3rem;
-    font-size: 2.5rem;
   }
   #footer {
     margin-top: -12rem;

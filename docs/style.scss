@@ -5,7 +5,7 @@
 }
 
 * {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -54,14 +54,14 @@ nav {
         }
     }
 
-    .menu-icon{
+    .menu-icon {
         display: none;
     }
 
 
     .menu {
 
-        .menu-cross{
+        .menu-cross {
             display: none;
         }
 
@@ -70,8 +70,9 @@ nav {
         display: flex;
         gap: 3.5rem;
         align-items: center;
-        font-family: 'Montserrat', sans-serif;
-        
+        font-family: 'Montserrat',
+        sans-serif;
+
         p {
 
             transition: all 0.8s ease;
@@ -675,7 +676,6 @@ main {
 
             .mail-input {
                 display: flex;
-                // gap:3rem;
 
                 .arrow {
                     color: white;
@@ -1082,28 +1082,17 @@ main {
                         .arrow-txt {
 
                             display: flex;
-                            // justify-content: center;
                             align-items: center;
-                            flex-direction: row;
-                            gap: -10rem;
-                            margin-left: -1rem;
-                            width: 50%;
 
                             .sign {
+                                display: flex;
+                                flex-direction: row;
                                 font-size: 2rem;
                             }
 
                             .percentage {
                                 font-size: 2rem;
                             }
-
-                            .arrow {
-                                position: absolute;
-                                right: -10rem;
-                                bottom: 1.3rem;
-                                font-size: 2.5rem;
-                            }
-
                         }
                     }
 
